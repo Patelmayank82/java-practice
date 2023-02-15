@@ -13,17 +13,18 @@ class Calculator{
         System.out.println("4.divition");
         int choice = sc.nextInt();
 
-    Switch(choice){
+    switch(choice)
+    {
         case 1 : System.out.println("addition: "+(a+b));
         break;
 
-        case 1 : System.out.println("subtraction: "+(a-b));
+        case 2 : System.out.println("subtraction: "+(a-b));
         break;
 
-        case 1 : System.out.println("multiplication: "+(a*b));
+        case 3 : System.out.println("multiplication: "+(a*b));
         break;
 
-        case 1 : System.out.println("divition: "+(a/b));
+        case 4 : System.out.println("divition: "+(a/b));
         break;
 
         default : System.out.println("invalid choice");
